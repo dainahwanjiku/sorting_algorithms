@@ -1,5 +1,9 @@
 #include "sort.h"
 
+#include <stdlib.h>
+#include <stdio.h>
+
+
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 		size_t back);
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
